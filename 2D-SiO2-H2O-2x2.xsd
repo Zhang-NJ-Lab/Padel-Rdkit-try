@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XSD []>
+<XSD Version="8.0" WrittenBy="Materials Studio 8.0">
+	<AtomisticTreeRoot ID="1" NumProperties="115" NumChildren="1">
+		<Property Name="AngleAxisType" DefinedOn="AngleBetweenPlanesBender" Type="Enumerated"/>
+		<Property Name="AngleEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BeadDocumentID" DefinedOn="MesoMoleculeSet" Type="String"/>
+		<Property Name="BendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BendTorsionBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="EFGAsymmetry" DefinedOn="Atom" Type="Double"/>
+		<Property Name="EFGQuadrupolarCoupling" DefinedOn="Atom" Type="Double"/>
+		<Property Name="ElectrostaticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="FaceMillerIndex" DefinedOn="GrowthFace" Type="MillerIndex"/>
+		<Property Name="FacetTransparency" DefinedOn="GrowthFace" Type="Float"/>
+		<Property Name="FermiLevel" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="Force" DefinedOn="Matter" Type="CoDirection"/>
+		<Property Name="FrameFilter" DefinedOn="Trajectory" Type="String"/>
+		<Property Name="HarmonicForceConstant" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HarmonicMinimum" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HydrogenBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ImportOrder" DefinedOn="Bondable" Type="UnsignedInteger"/>
+		<Property Name="InversionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="IsBackboneAtom" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsChiralCenter" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsOutOfPlane" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsRepeatArrowVisible" DefinedOn="ElectrodeWire" Type="Boolean"/>
+		<Property Name="KineticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="LineExtentPadding" DefinedOn="BestFitLineMonitor" Type="Double"/>
+		<Property Name="LinkageGroupName" DefinedOn="Linkage" Type="String"/>
+		<Property Name="ListIdentifier" DefinedOn="PropertyList" Type="String"/>
+		<Property Name="NMRShielding" DefinedOn="Atom" Type="Double"/>
+		<Property Name="NonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="NormalMode" DefinedOn="Bondable" Type="Direction"/>
+		<Property Name="NormalModeFrequency" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="NumScanSteps" DefinedOn="LinearScan" Type="UnsignedInteger"/>
+		<Property Name="OrbitalCutoffRadius" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="PlaneExtentPadding" DefinedOn="BestFitPlaneMonitor" Type="Double"/>
+		<Property Name="PotentialEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="QuantizationValue" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="RelativeVelocity" DefinedOn="Matter" Type="Direction"/>
+		<Property Name="RepeatArrowScale" DefinedOn="ElectrodeWire" Type="Float"/>
+		<Property Name="RestraintEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ScanEnd" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="ScanStart" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="SD_10_PUBCHEM_5FBOND_5FDEF_5FSTEREO_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_10_PUBCHEM_5FIUPAC_5FNAME_5FMARKUP" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_11_PUBCHEM_5FBOND_5FUDEF_5FSTEREO_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_11_PUBCHEM_5FIUPAC_5FNAME" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_12_PUBCHEM_5FISOTOPIC_5FATOM_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_12_PUBCHEM_5FIUPAC_5FSYSTEMATIC_5FNAME" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_13_PUBCHEM_5FCOMPONENT_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_13_PUBCHEM_5FIUPAC_5FTRADITIONAL_5FNAME" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_14_PUBCHEM_5FCACTVS_5FTAUTO_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_14_PUBCHEM_5FIUPAC_5FINCHI" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_15_PUBCHEM_5FCONFORMER_5FID" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_15_PUBCHEM_5FIUPAC_5FINCHIKEY" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_16_PUBCHEM_5FMMFF94_5FENERGY" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_16_PUBCHEM_5FXLOGP3_5FAA" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_17_PUBCHEM_5FEXACT_5FMASS" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_17_PUBCHEM_5FFEATURE_5FSELFOVERLAP" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_18_PUBCHEM_5FMOLECULAR_5FFORMULA" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_18_PUBCHEM_5FSHAPE_5FFINGERPRINT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_19_PUBCHEM_5FMOLECULAR_5FWEIGHT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_19_PUBCHEM_5FSHAPE_5FMULTIPOLES" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_1_PUBCHEM_5FCOMPOUND_5FCID" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_20_PUBCHEM_5FOPENEYE_5FCAN_5FSMILES" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_20_PUBCHEM_5FSHAPE_5FSELFOVERLAP" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_21_PUBCHEM_5FOPENEYE_5FISO_5FSMILES" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_21_PUBCHEM_5FSHAPE_5FVOLUME" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_22_PUBCHEM_5FCACTVS_5FTPSA" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_22_PUBCHEM_5FCOORDINATE_5FTYPE" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_23_PUBCHEM_5FMONOISOTOPIC_5FWEIGHT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_24_PUBCHEM_5FTOTAL_5FCHARGE" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_25_PUBCHEM_5FHEAVY_5FATOM_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_26_PUBCHEM_5FATOM_5FDEF_5FSTEREO_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_27_PUBCHEM_5FATOM_5FUDEF_5FSTEREO_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_28_PUBCHEM_5FBOND_5FDEF_5FSTEREO_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_29_PUBCHEM_5FBOND_5FUDEF_5FSTEREO_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_2_PUBCHEM_5FCOMPOUND_5FCANONICALIZED" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_2_PUBCHEM_5FCONFORMER_5FRMSD" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_30_PUBCHEM_5FISOTOPIC_5FATOM_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_31_PUBCHEM_5FCOMPONENT_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_32_PUBCHEM_5FCACTVS_5FTAUTO_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_33_PUBCHEM_5FCOORDINATE_5FTYPE" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_3_PUBCHEM_5FCACTVS_5FCOMPLEXITY" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_3_PUBCHEM_5FCONFORMER_5FDIVERSEORDER" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_4_PUBCHEM_5FCACTVS_5FHBOND_5FACCEPTOR" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_4_PUBCHEM_5FMMFF94_5FPARTIAL_5FCHARGES" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_5_PUBCHEM_5FCACTVS_5FHBOND_5FDONOR" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_5_PUBCHEM_5FEFFECTIVE_5FROTOR_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_6_PUBCHEM_5FCACTVS_5FROTATABLE_5FBOND" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_6_PUBCHEM_5FPHARMACOPHORE_5FFEATURES" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_7_PUBCHEM_5FCACTVS_5FSUBSKEYS" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_7_PUBCHEM_5FHEAVY_5FATOM_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_8_PUBCHEM_5FATOM_5FDEF_5FSTEREO_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_8_PUBCHEM_5FIUPAC_5FOPENEYE_5FNAME" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_9_PUBCHEM_5FATOM_5FUDEF_5FSTEREO_5FCOUNT" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SD_9_PUBCHEM_5FIUPAC_5FCAS_5FNAME" DefinedOn="Molecule" Type="String"/>
+		<Property Name="SeparatedStretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ServerDipoleMoment" DefinedOn="MatterGroupProperties" Type="Direction"/>
+		<Property Name="SimulationStep" DefinedOn="Trajectory" Type="Integer"/>
+		<Property Name="SpinQuantizationDirection" DefinedOn="Atom" Type="Direction"/>
+		<Property Name="Stiffness" DefinedOn="SymmetryMatterHessian" Type="Matrix6x6"/>
+		<Property Name="StretchBendStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchTorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Temperature" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ThreeBodyNonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionBendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TotalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Units" DefinedOn="ScalarFieldBase" Type="String"/>
+		<Property Name="ValenceCrossTermEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ValenceDiagonalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="VanDerWaalsEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="_Stress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Property Name="_TrajectoryStress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<SymmetrySystem ID="2" Mapping="3" Children="ci(49):49+4" Normalized="1" Name="2d-sio2" OverspecificationTolerance="0.05">
+			<MappingSet ID="53" SymmetryDefinition="16" ActiveSystem="2" NumFamilies="1" OwnsTotalConstraintMapping="1" TotalConstraintMapping="3">
+				<MappingFamily ID="54" NumImageMappings="3">
+					<IdentityMapping ID="55" Element="1,0,0,0,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(48):12+4,36+17" DefectObjects="16,56" NumImages="48" NumDefects="2">
+						<Atom3d ID="4" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.166666666666667,0.333333333333334,0.0677099999999998" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="5" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.333333333333333,0.166666666666667,0.0677099999999998" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="6" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.333333333333333,0.166666666666667,0.932290000000001" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="7" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.166666666666667,0.333333333333334,0.932290000000001" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="8" Mapping="55" Parent="2" Name="O1" DisplayStyle="Line" XYZ="0.166666666666667,0.333333333333334,0" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="9" Mapping="55" Parent="2" Name="O1" DisplayStyle="Line" XYZ="0.333333333333333,0.166666666666667,0" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="10" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.25,0,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="11" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0,0.25,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="12" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.25,0.25,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="13" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0,0.25,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="14" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.25,-1.11022302462516e-016,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="15" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.25,0.25,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="17" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.666666666666667,0.333333333333334,0.0677099999999998" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="18" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.833333333333333,0.166666666666667,0.0677099999999998" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="19" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.833333333333333,0.166666666666667,0.932290000000001" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="20" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.666666666666667,0.333333333333334,0.932290000000001" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="21" Mapping="55" Parent="2" Name="O1" DisplayStyle="Line" XYZ="0.666666666666667,0.333333333333334,0" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="22" Mapping="55" Parent="2" Name="O1" DisplayStyle="Line" XYZ="0.833333333333333,0.166666666666667,0" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="23" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.75,0,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="24" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.5,0.25,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="25" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.75,0.25,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="26" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.5,0.25,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="27" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.75,-5.55111512312578e-017,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="28" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.75,0.25,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="29" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.166666666666667,0.833333333333334,0.0677099999999998" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="30" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.333333333333333,0.666666666666667,0.0677099999999998" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="31" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.333333333333333,0.666666666666667,0.932290000000001" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="32" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.166666666666667,0.833333333333334,0.932290000000001" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="33" Mapping="55" Parent="2" Name="O1" DisplayStyle="Line" XYZ="0.166666666666667,0.833333333333334,0" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="34" Mapping="55" Parent="2" Name="O1" DisplayStyle="Line" XYZ="0.333333333333333,0.666666666666667,0" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="35" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.25,0.5,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="36" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0,0.75,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="37" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.25,0.75,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="38" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0,0.75,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="39" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.25,0.5,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="40" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.25,0.75,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="41" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.666666666666667,0.833333333333334,0.0677099999999998" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="42" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.833333333333333,0.666666666666667,0.0677099999999998" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="43" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.833333333333333,0.666666666666667,0.932290000000001" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="44" Mapping="55" Parent="2" Name="Si1" DisplayStyle="Line" XYZ="0.666666666666667,0.833333333333334,0.932290000000001" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="Si"/>
+						<Atom3d ID="45" Mapping="55" Parent="2" Name="O1" DisplayStyle="Line" XYZ="0.666666666666667,0.833333333333334,0" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="46" Mapping="55" Parent="2" Name="O1" DisplayStyle="Line" XYZ="0.833333333333333,0.666666666666667,0" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="47" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.75,0.5,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="48" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.5,0.75,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="49" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.75,0.75,0.90417" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="50" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.5,0.75,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="51" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.75,0.5,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<Atom3d ID="52" Mapping="55" Parent="2" Name="O2" DisplayStyle="Line" XYZ="0.75,0.75,0.0958299999999997" TemperatureType="Isotropic" AnisotropicTemperature="0,0,0,0,0,0,0,0,0" Components="O"/>
+						<SpaceGroup ID="16" Parent="2" Children="56" DisplayStyle="Solid" AVector="9.1989218389983,-5.311,0" BVector="0,10.622,0" CVector="0,0,24" Color="255,255,255,255" OrientationBase="C along Z, B in YZ plane" Centering="3D Primitive-Centered" Lattice="3D Triclinic" GroupName="P1" Operators="1,0,0,0,0,1,0,0,0,0,1,0" DisplayRange="0,1,0,1,0,1" LineThickness="2" CylinderRadius="0.2" LabelAxes="1" ActiveSystem="2" ITNumber="1" LongName="P 1" Qualifier="Origin-1" SchoenfliesName="C1-1" System="Triclinic" Class="1"/>
+						<ReciprocalLattice3D ID="56" Parent="16" Visible="0"/>
+					</IdentityMapping>
+					<ImageMapping ID="57" Element="1,0,0,1,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(34):7x0,58,0,59,21x0,60,0,61" NumImages="4">
+						<Atom3d ID="58" Mapping="57" ImageOf="11"/>
+						<Atom3d ID="59" Mapping="57" ImageOf="13"/>
+						<Atom3d ID="60" Mapping="57" ImageOf="36"/>
+						<Atom3d ID="61" Mapping="57" ImageOf="38"/>
+					</ImageMapping>
+					<ImageMapping ID="62" Element="1,0,0,0,0,1,0,1,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(23):6x0,63,3x0,64,7x0,65,3x0,66" NumImages="4">
+						<Atom3d ID="63" Mapping="62" ImageOf="10"/>
+						<Atom3d ID="64" Mapping="62" ImageOf="14"/>
+						<Atom3d ID="65" Mapping="62" ImageOf="23"/>
+						<Atom3d ID="66" Mapping="62" ImageOf="27"/>
+					</ImageMapping>
+					<ImageMapping ID="67" Element="1,0,0,0,0,1,0,0,0,0,1,1" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(42):4x0,2+68,10x0,2+70,10x0,2+72,10x0,2+74" NumImages="8">
+						<Atom3d ID="68" Mapping="67" ImageOf="8"/>
+						<Atom3d ID="69" Mapping="67" ImageOf="9"/>
+						<Atom3d ID="70" Mapping="67" ImageOf="21"/>
+						<Atom3d ID="71" Mapping="67" ImageOf="22"/>
+						<Atom3d ID="72" Mapping="67" ImageOf="33"/>
+						<Atom3d ID="73" Mapping="67" ImageOf="34"/>
+						<Atom3d ID="74" Mapping="67" ImageOf="45"/>
+						<Atom3d ID="75" Mapping="67" ImageOf="46"/>
+					</ImageMapping>
+					<MappingRepairs NumRepairs="0"/>
+				</MappingFamily>
+				<InfiniteMapping ID="3" Element="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="2"/>
+			</MappingSet>
+		</SymmetrySystem>
+	</AtomisticTreeRoot>
+</XSD>
